@@ -31,7 +31,7 @@ srand(time(0));
             cout << "Too low! ";
         } else if (userGuess > randomNumber) {
 
-            cout << "Too high! ";
+            cout << "Too high!";
 
         } else {
             cout << "\nCongratulations! You guessed the number in " << attempts << " attempts." << endl;
@@ -40,6 +40,5 @@ srand(time(0));
         }
 
     } while (userGuess != randomNumber);
-
     return 0;
 }
